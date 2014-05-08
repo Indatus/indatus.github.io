@@ -9,18 +9,6 @@ $hover: #D14233;
 
 // Layout
 
-* {
-  box-sizing: border-box;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-
-body {
-	background: $main;
-	color: $text;
-	font-family: $helvetica;
-	font-size: 16px;
-}
 
 #wrapper {
 	@include outer-container;

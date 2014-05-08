@@ -1,0 +1,20 @@
+// Global Styles
+
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+    margin: 0;
+}
+
+.row {
+    padding: 2em;
+
+    h2 {
+        text-align: center;
+    }
+
+}

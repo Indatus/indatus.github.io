@@ -3,59 +3,64 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+body {
+  font-family: "proxima-nova",sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "proxima-nova",sans-serif;
+  font-weight: 600; }
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1; }
+
+h2 {
+  font-size: 2.25em;
+  line-height: 1; }
+
+h3 {
+  font-size: 2em;
+  line-height: 1.125; }
+
+h4 {
+  font-size: 1.75em;
+  line-height: 1.125; }
+
+h5 {
+  font-size: 1.5em;
+  line-height: 1.25; }
+
+h6 {
+  font-size: 1.25em;
+  line-height: 1.25; }
+
 * {
   box-sizing: border-box;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
 body {
-  background: #fbfcfc;
-  color: #7f8c8d;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px; }
+  margin: 0; }
 
-#wrapper {
-  *zoom: 1;
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto; }
-  #wrapper:before, #wrapper:after {
-    content: " ";
-    display: table; }
-  #wrapper:after {
-    clear: both; }
+.row {
+  padding: 2em; }
+  .row h2 {
+    text-align: center; }
 
-.container {
-  padding-top: 40px;
-  display: block;
-  float: left;
-  margin-right: 2.35765%;
-  width: 48.82117%;
-  margin-left: 25.58941%; }
-  .container:last-child {
-    margin-right: 0; }
+.dispatcher {
+  background: #5dba7e; }
 
-.links {
-  border-top: 1px solid #e74c3c; }
+.foreman {
+  background: #af4b37; }
 
-a:link {
-  color: #e74c3c;
-  text-decoration: none; }
+.blacksmith {
+  background: #3d3f39; }
 
-a:visited {
-  color: #e74c3c; }
+.trucker {
+  background: #7ecabe; }
 
-a:hover {
-  color: #d14233; }
-
-a:active {
-  color: #e74c3c; }
-
-.red {
-  color: #e74c3c; }
-
-/** Notes
-
-Bourbon have a clearfix in bourbon/addons. just use @include clearfix;
-
-**/
+.ranger {
+  background: #e4d5a8; }
