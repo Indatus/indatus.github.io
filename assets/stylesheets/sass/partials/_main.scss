@@ -1,15 +1,48 @@
 // Main Styles
 
+section:not(.packages), footer {
+    @include outer-container;
+}
+
+.row {
+    @include clearfix;
+    padding: 4em;
+
+    h3 {
+        font-weight: 300;
+    }
+}
+
+.inner {
+    @include outer-container;
+    margin: 0 auto;
+    display: table;
+    vertical-align: middle;
+
+    .icon {
+    }
+
+    .text {
+        @include span-columns(6);
+        float: none; 
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+}
+
 .dispatcher {
     background: $green;
 }
 
 .foreman {
     background: $brick;
+    color: $tan;
 }
 
 .blacksmith {
     background: $charcoal;
+    color: $tan;
 }
 
 .trucker {
@@ -18,4 +51,21 @@
 
 .ranger {
     background: $tan;
+}
+
+.logo {
+    max-width: 15em;
+}
+
+.intro {
+    border-top: 1px solid lighten($charcoal, 50%);
+}
+
+footer {
+    border-top: 1px solid lighten($charcoal, 50%);
+
+    p {
+        font-size: 1em;
+    }
+
 }

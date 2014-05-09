@@ -5,6 +5,7 @@ body {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.5;
+    color: $charcoal;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,4 +41,13 @@ h5 {
 h6 {
     font-size: 1.25em;
     line-height: 1.25;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
 }
