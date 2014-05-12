@@ -16,6 +16,10 @@
 
         <!-- Styles -->
         {{ "master.css" | asset_url | stylesheet_tag }}
+        
+        <!-- Icon Fonts -->
+        <link rel="stylesheet" href="/assets/fonts/ss-social/webfonts/ss-social.min.css">
+        <script src="/assets/fonts/ss-social/webfonts/ss-social.min.js"></script>
 
         <!-- Style block allowing child pages to inject their own styles -->
         {% block styles %}{% endblock %}
@@ -34,19 +38,13 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div id="wrapper">
-
-            <!-- Include -->
-
-            {% include "header" %}
-
-            <!-- Content block, child page inject content -->
-            {% block content %}{% endblock %}
-
-        </div>
+        <!-- Content block, child page inject content -->
+        {% block content %}{% endblock %}
 
         <!-- Script block allowing child pages to inject their own scripts -->
         {% block scripts %}{% endblock %}
         {{ "app.js" | asset_url | script_tag }}
+        <script async defer id="github-bjs" src="http://buttons.github.io/buttons.js"></script>
+
     </body>
 </html>
