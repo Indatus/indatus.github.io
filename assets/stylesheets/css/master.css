@@ -157,19 +157,17 @@ section:not(.packages), footer {
   max-width: 30em;
   margin: 0 auto; }
 
-footer {
-  border-top: 1px solid #bdbfb8; }
-  footer p {
-    font-size: 1em;
+footer p {
+  font-size: 1em;
+  display: inline; }
+footer .social-icons {
+  list-style-type: none;
+  float: right;
+  padding: 0;
+  margin: -0.25em 0 0; }
+  footer .social-icons li {
     display: inline; }
-  footer .social-icons {
-    list-style-type: none;
-    float: right;
-    padding: 0;
-    margin: -1.5em 0 0; }
-    footer .social-icons li {
-      display: inline; }
-  footer .ss-social-circle {
-    font-size: 1.5em;
-    margin: 0 0 0 0.25em;
-    padding: 0; }
+footer .ss-social-circle {
+  font-size: 1.5em;
+  margin: 0 0 0 0.25em;
+  padding: 0; }
