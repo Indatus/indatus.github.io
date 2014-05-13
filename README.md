@@ -1,0 +1,1 @@
+[Mixture](http://mixture.io) source for the indatus.github.io site.  Run the build.sh script in the `build` folder after changes are made to have them pushed and published to the indatus.github.io site
