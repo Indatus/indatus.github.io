@@ -1,8 +1,49 @@
-{% block content %}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Title block allowing child pages to override -->
+        <title>Indatus | Open Source Packages</title>
+        <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+
+        <!-- Styles -->
+        <link href="assets/stylesheets/css/master.min.css" rel="stylesheet" type="text/css" media="all"/>
+        
+        <!-- Icon Fonts -->
+        <link rel="stylesheet" href="assets/fonts/ss-social/webfonts/ss-social.min.css">
+        <script src="assets/fonts/ss-social/webfonts/ss-social.min.js"></script>
+
+        <!-- Style block allowing child pages to inject their own styles -->
+        
+
+        <!-- include JS libs -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/modernizr.min.js"></script>
+
+        <!-- Typekit -->
+        <script type="text/javascript" src="//use.typekit.net/qhc5afv.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Content block, child page inject content -->
+        
 
 <section class="hero">
     <div class="row">
-        <img class="logo" src="/assets/img/indatus-logo.svg" alt="">
+        <img class="logo" src="assets/img/indatus-logo.svg" alt="">
     </div>
 </section>
 
@@ -19,7 +60,7 @@
     <article class="dispatcher">
         <div class="inner">
             <div class="icon">
-                <a href="https://github.com/Indatus/dispatcher"><img src="/assets/img/dispatcher.svg" alt="dispatcher icon"></a>
+                <a href="https://github.com/Indatus/dispatcher"><img src="assets/img/dispatcher.svg" alt="dispatcher icon"></a>
             </div>
             <div class="text">
                 <h2>Dispatcher</h2>
@@ -35,7 +76,7 @@
     <article class="foreman">
         <div class="inner">
             <div class="icon show-small">
-                <a href="https://github.com/indatus/foreman"><img src="/assets/img/foreman.svg" alt="foreman icon"></a>
+                <a href="https://github.com/indatus/foreman"><img src="assets/img/foreman.svg" alt="foreman icon"></a>
             </div>
             <div class="text">
                 <h2>Foreman</h2>
@@ -46,7 +87,7 @@
                   data-count-href="/indatus/foreman/network" data-count-api="/repos/indatus/foreman#forks_count">Fork</a>
             </div>
             <div class="icon hide-small">
-                <a href="https://github.com/indatus/foreman"><img src="/assets/img/foreman.svg" alt="foreman icon"></a>
+                <a href="https://github.com/indatus/foreman"><img src="assets/img/foreman.svg" alt="foreman icon"></a>
             </div>
         </div>
     </article>
@@ -54,7 +95,7 @@
     <article class="trucker">
         <div class="inner">
             <div class="icon">
-                <a href="https://github.com/indatus/trucker"><img src="/assets/img/trucker.svg" alt="trucker icon"></a>
+                <a href="https://github.com/indatus/trucker"><img src="assets/img/trucker.svg" alt="trucker icon"></a>
             </div>
             <div class="text">
                 <h2>Trucker</h2>
@@ -70,7 +111,7 @@
     <article class="blacksmith">
         <div class="inner">
             <div class="icon show-small">
-                <a href="https://github.com/indatus/blacksmith"><img src="/assets/img/blacksmith.svg" alt="blacksmith icon"></a>
+                <a href="https://github.com/indatus/blacksmith"><img src="assets/img/blacksmith.svg" alt="blacksmith icon"></a>
             </div>
             <div class="text">
                 <h2>Blacksmith</h2>
@@ -81,7 +122,7 @@
                   data-count-href="/indatus/blacksmith/network" data-count-api="/repos/indatus/blacksmith#forks_count">Fork</a>
             </div>
             <div class="icon hide-small">
-                <a href="https://github.com/indatus/blacksmith"><img src="/assets/img/blacksmith.svg" alt="blacksmith icon"></a>
+                <a href="https://github.com/indatus/blacksmith"><img src="assets/img/blacksmith.svg" alt="blacksmith icon"></a>
             </div>
         </div>
     </article>
@@ -89,7 +130,7 @@
     <article class="ranger">
         <div class="inner">
             <div class="icon">
-                <a href="https://github.com/indatus/ranger"><img src="/assets/img/ranger.svg" alt="ranger icon"></a>
+                <a href="https://github.com/indatus/ranger"><img src="assets/img/ranger.svg" alt="ranger icon"></a>
             </div>
             <div class="text">
                 <h2>Ranger</h2>
@@ -116,4 +157,12 @@
     </div>
 </footer>
 
-{% endblock %}
+
+
+        <!-- Script block allowing child pages to inject their own scripts -->
+        
+        <script src="assets/js/app.min.js"></script>
+        <script async defer id="github-bjs" src="http://buttons.github.io/buttons.js"></script>
+
+    </body>
+</html>
